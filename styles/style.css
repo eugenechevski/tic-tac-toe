@@ -12,6 +12,12 @@ body {
   height: 100vh;
 }
 
+img {
+  display: block;
+  width: 100%;
+  margin-top: 10%;
+}
+
 #grid {
   width: 60vh;
   height: 60vh;
