@@ -348,7 +348,7 @@ var DisplayController = (function (){
      */
     function updateGrid(position, player) {
         let sprite = document.createElement('img');
-        sprite.src = './images/' + player.getName() + '.png';
+        sprite.src = './images/' + player.getName().toLowerCase() + '.png';
 
         _elGrid[position].appendChild(sprite);
     }
@@ -408,7 +408,7 @@ var DisplayController = (function (){
      */
     function greetWinner(positions, player) {
         let sprite = document.createElement('img');
-        sprite.src = './images/' + player.getName() + '_win.png';
+        sprite.src = './images/' + player.getName().toLowerCase() + '_win.png';
 
         if (_elGrid[positions[0]].firstChild != null) {
             _elGrid[positions[0]].firstChild.remove();
