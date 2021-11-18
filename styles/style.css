@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: 'Comic Sans MS', 'Monaco', 'Verdana';
   width: 100vw;
   height: 100vh;
 }
@@ -22,6 +23,8 @@ img {
   width: 60vh;
   height: 60vh;
   margin-right: 5%;
+  -webkit-box-shadow: 3px 3px 3px gray;
+          box-shadow: 3px 3px 3px gray;
 }
 
 .square {
