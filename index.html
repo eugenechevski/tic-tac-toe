@@ -21,7 +21,7 @@
 <body>
 
     <!-- Start label -->
-    <div id="status" class="h1 text-center m-sm-4">Status Label</div>
+    <div id="status-label" class="h1 text-center m-sm-4"></div>
 
     <!-- Interactive area -->
     <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 w-100 h-75">
@@ -40,12 +40,12 @@
         <!-- Controls -->
         <div id="controls" class="d-flex flex-column">
             <div class="h5 text-center">Settings</div>
-            <div class="btn-group mb-2" role="group" aria-label="Player signature settings">
-                <input type="radio" class="btn-check" name="player-choice" id="cross-choice" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="cross-radio">Cross</label>
+            <div id='playerChoice' class="btn-group mb-2" role="group" aria-label="Player signature settings">
+                <input type="radio" class="btn-check" name="player-choice" id="CROSS_CHOICE" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="CROSS_CHOICE">Cross</label>
               
-                <input type="radio" class="btn-check" name="player-choice" id="nought-choice" autocomplete="off">
-                <label class="btn btn-outline-primary" for="nought-radio">Nought</label>
+                <input type="radio" class="btn-check" name="player-choice" id="NOUGHT_CHOICE" autocomplete="off">
+                <label class="btn btn-outline-primary" for="NOUGHT_CHOICE">Nought</label>
             </div>
             <select id="game-mode" class="form-select mb-2" aria-label="Opponent selection menu">
                 <option value="PLAYER_MODE">Against player</option>
